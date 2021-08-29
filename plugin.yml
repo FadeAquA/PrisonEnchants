@@ -1,0 +1,30 @@
+name: PrisonEnchants
+author: iLucaH
+version: 1.0
+main: me.iLucaH.PrisonEnchants.MainClass
+depend: [WorldGuard, WorldEdit, Vault]
+softdepend: [PlaceholderAPI]
+api-version: 1.16
+description: Custom Prison Enchants Plugin. Plugin made by iLucaH.
+
+commands:
+    enchanter:
+        usage: /<command>
+        aliases: [enchant, ec]
+        description: Opens the enchanter menu.
+    tokens:
+        usage: /<command>
+        aliases: [token]
+        description: Handles all token commands.
+    prisonenchants:
+        usage: /<command>
+        aliases: [pe, prisench, prisonenchantments, penchants, prisone, penchantments]
+        description: Handles all administration prison commands.
+    enchantshop:
+        usage: /<command>
+        aliases: [enchshop, enchantershop, enchantbuy, buyenchants, buyenchant]
+        description: Menu to purchase custom enchants.
+    disenchanter:
+        usage: /<command>
+        aliases: [disenchant]
+        description: Menu to disenchant or remove a custom enchant.

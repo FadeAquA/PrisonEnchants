@@ -1,0 +1,135 @@
+################################################################
+#           Copyright [2021] [iLucaH] [github]                 #
+# This plugin is not to be decompiled, resold or redistributed #
+#   without owner approval. All information can be found at    #
+# this plugins source page. This plugin is opensource and can  #
+#           be found on the plugin source page.                #
+################################################################ 
+Tokens:
+     Messages:
+         Dominantcolor: 'gold'
+         Secondarycolor: 'yellow'
+     Tokensperblock: 1
+     Joinamount: 15000
+     Withdrawminimum: 1000
+     Symbol: '¤'
+# This section is for all the enchants.
+Enchants:
+#
+# Enchant name. this enchant takes mine dimentions to determine the orb amount.
+     Shockwave:
+#
+# hight length
+         Mineheight: 45
+         # width length
+         Minewidth: 45
+         # the message that will desplay on proc.
+         # amount is the placeholder for the amount of tokens given
+         Message: ' &4&l+ &c {amount} tokens! &7(Shockwave Enchant)'
+         # the description shown in the enchanter menu for this enchant.
+         Enchantdescription: 'Mines the entire mine!'
+         # the cost of enchant for this enchant.
+         Enchantprice: 7500
+         # the max level for this enchant.
+         Maxlevel: 5000
+         # Procrange is the the range of how often the enchant will occur.
+         # It is to be tampered with at your own risk.
+         # The default procrange is already set to average proc rates.
+         Procrange: 2000000
+     # The bonus occurs when Shockwave is level 500. 
+     # Its a chance of extra tokens.
+     Shockwavebonus:
+         # This is the message that sends when the bonus occurs.
+         Bonusmessage: '&4&l + &c{amount} tokens! &7(3x Bonus!)'
+     Nuker:
+         # The enchant description scribed in the enchanter menu.
+         Enchantdescription: 'Make explosions in the mine!'
+         # The price to upgrade.
+         Enchantprice: 10000
+         # This is the max level that this enchant can enchant to.
+         Maxlevel: 5000
+         # Procrange is the the range of how often the enchant will occur.
+         # It is to be tampered with at your own risk.
+         # The default procrange is already set to average proc rates.
+         Procrange: 40000
+     Tokengreed:
+         # amount is the amount given placeholder.
+         Message: '&a&l + {amount} tokens! &7(Tokengreed Enchant)'
+         Enchantdescription: 'Chance to receive tokens when mining!'
+         Enchantprice: 4250
+         Maxlevel: 1000
+         Procrange: 35000
+     Moneygreed:
+         # amount is the amount given placeholder.
+         Message: '&b&l + ${amount} &7(Moneygreed Enchant)'
+         Enchantdescription: 'Chance to receive money when mining!'
+         Enchantprice: 1500
+         Maxlevel: 1000
+         Procrange: 2790000
+     Charity:
+         # username is the playername placeholder.
+         # amount is the amount placeholder.
+         Message: '&6{username} &eHas donated &6{amount} &eto everyone online!'
+         Enchantdescription: 'Chance to give everyone online money!'
+         Enchantprice: 10000
+         Maxlevel: 5000
+         Procrange: 10000000
+     Laser:
+         Enchantdescription: 'Shoot lasers into the mine to create a laser like pattern!'
+         Enchantprice: 10000
+         Maxlevel: 5000
+         Procrange: 200000
+     Souls:
+         # the blocktype is what type of block gets set to the bottom level of mine.
+         Blocktype: 'gold_block'
+         Enchantdescription: 'Set the bottom level of the mine to an OP block!'
+         Enchantprice: 5000
+         Maxlevel: 5000
+         Procrange: 5000000
+     Lucky:
+         # the message that sends to the player.
+         Message: '&6You recieved a Crate Key! &e(/crates)'
+         # this is the command that runs when the enchant procs.
+         # username is the placeholder for the playername.
+         Command: 'give {username} Gold_Block 1'
+         Enchantdescription: 'Chance to receive a crate key!'
+         Enchantprice: 6000
+         Maxlevel: 5000
+         Procrange: 1300000
+     Keyalls:
+         # the message that sends to the player.
+         Message: '&f&lYou sent EVERYONE a random Crate Key! &b(/crates)'
+         # this is the command that runs when the enchant procs.
+         # username is the placeholder for the playername.
+         Crateone: 'give {username} Iron_Block 1'
+         Cratetwo: 'give {username} Diamond_Block 1'
+         Cratethree: 'give {username} Stone 1'
+         Enchantdescription: 'Chance to give everyone online a random crate key!'
+         Enchantprice: 10000
+         Maxlevel: 5000
+         Procrange: 3000000
+     Fortune:
+         Enchantdescription: 'Give you more blocks per block mined!'
+         Enchantprice: 3500
+         Maxlevel: 20000
+     Efficiency:
+         Enchantdescription: 'Mine blocks easier!'
+         Enchantprice: 1000
+         Maxlevel: 1000
+     Haste:
+         Enchantdescription: 'Mine blocks quicker!'
+         Enchantprice: 250000
+         Maxlevel: 5
+     Speed:
+         Enchantdescription: 'Move around the mine quicker!'
+         Enchantprice: 250000
+         Maxlevel: 5
+     Jumpboost:
+         Enchantdescription: 'Jump higher around the mine!'
+         Enchantprice: 250000
+         Maxlevel: 5
+     Layer:
+         Enchantdescription: 'Remove a layer of the mine!'
+         Enchantprice: 8500
+         Maxlevel: 5000
+         Procrange: 50000
